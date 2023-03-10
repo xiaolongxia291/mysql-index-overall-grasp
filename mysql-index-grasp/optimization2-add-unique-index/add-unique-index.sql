@@ -1,0 +1,5 @@
+ALTER TABLE claim
+ADD UNIQUE INDEX(app_no);
+
+ALTER TABLE text
+ADD UNIQUE INDEX(`index`);
